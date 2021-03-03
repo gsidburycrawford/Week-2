@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {
+    background-image: url('chalkboard-background.jpg');
+      margin: 0;
+    }
+    * {
+        font-size: 115%;
+        font-family: 'Fredericka the Great';
+        color: white;
+    }
+
+    .sectionHeader {
+      font-size: 125%;              
+    }
+
+    .sectionCountry {
+        text-align: center
+    }
+
+    div.frame {
+        width:315px;
+        height:90px;
+        align-self: center;
+        background-image: url('Frame.png');
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    div.frame h4 {
+        margin: 0;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    }
+
+    li {
+    float: left;
+    }
+
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 50px;
+    
+    }
+
+    li a:hover:not(.active) {
+    background-color: #111;
+    }
+
+    .active {
+    background-color: #4CAF50;
+    }
+
+    form {
+        margin-right: .5rem!important;
+    }
+
+    input {
+        text-rendering: auto;
+        color: -internal-light-dark(black, white);
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        appearance: textfield;
+        background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+        -webkit-rtl-ordering: logical;
+        cursor: text;
+        border-style: inset;
+        border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+        border-image: initial;
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+    button {
+        align-self: right;
+        background-color: #4CAF50;
+    }
+
+    .sideButtons{
+        margin-left: auto;
+        display: flex;
+        flex-direction: column !important;
+        font-size: small;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .titleHeader {
+        text-align: center;
+        margin-top: 100px;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+
+
+    
+    h2 {
+        font-weight: bold;
+        font-size: medium;
+    }
+
+    span {
+        margin-left:100%;
+    }
+    .date{
+        margin-left:100%;
+
+    }
+
+    .location{
+        text-align: right;
+        font-style: italic;
+    }
+    
+    .position{
+        text-align: left;
+        font-style: italic;
+    }
+
+    .contact{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+
+    .row ul {
+        list-style-type: circle;
+        align-items: left;
+        background-color:transparent;
+        font-size: small;
+        padding: 50px 25px;   
+    }
+    
+    
+
+    
+
+    
